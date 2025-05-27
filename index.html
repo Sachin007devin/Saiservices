@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiservices</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link href="sai.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-item-center">
+        <div class="row">
+            <h1 class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Saiservices</h1>
+        </div>
+    </div>
+
+    <div class="container text-center my-4">
+        <h2 id="quote-text" class="fw-bold text-secondary"></h2>
+    </div>
+
+    <div class="container d-flex justify-content-center align-item-center">
+        <div class="column">
+            <button class="btn btn-block btn-primary" id="guide-btn">Guide</button>
+
+            <div id="guide-div" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <ol>
+                    <li>You will find a text containing select below...</li>
+                    <li>Below it you will find options</li>
+                    <li>Select the category of your request</li>
+                    <li>Click the button in whichever way you wanna submit your request</li>
+                    <li>For Submitting request through call click another button</li>
+                    <li>You have to call manually</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row">
+
+            <h4 class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Select below for Service,Installation & Repairing</h4>
+            <form>
+                <select id="drop-down" class="custom-select col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                    <option value="Installation">Installation</option>
+                    <option value="Service">Service</option>
+                    <option value="Repairing">Repairing</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <h5 id="option-value-text" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        </h5>
+    </div>
+    <div class="container">
+        <div class="row">
+            <a href="https://wa.me/8329377195?text=Hello,i wanna submit a request" target="_blank"
+                class="btn btn-primary ">Book Throgh Whatsapp  <i class="fa fa-paper-plane"></i></a>
+            <a href="tel:+918329377195" class="btn btn-primary">Book Through Call   <i class="fa fa-phone-alt"></i></a>
+        </div>
+    </div>
+    
+    <script src="./sai.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
